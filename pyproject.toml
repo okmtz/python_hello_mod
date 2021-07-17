@@ -3,6 +3,9 @@ name = "sandbox-poetry"
 version = "0.1.0"
 description = ""
 authors = ["okmtz <yuto430scuderia@gmail.com>"]
+packages = [
+    { include = "helloworld" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
